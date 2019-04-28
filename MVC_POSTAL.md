@@ -22,7 +22,7 @@ Una vez realizado la configuración correspondiente, se continuará abriendo una
 
 En el que comenzara con la conexión a la base de datos, para poder así realizar pruebas de los siguientes servicios Web (GET, POST, PUT DELETE). Mediante la aplicación de Postman.
 
-<br>
+<hr>
 
 <H2> Consulta Postal </H2>
 
@@ -50,7 +50,7 @@ Donde una vez conociendo las instrucciones de la petición a realizar, se conect
 
 ![Evidencia]
 
-<br>
+<hr>
 
 <H2> Consulta PostaById </H2>
 
@@ -77,7 +77,7 @@ Para posteriormente, regresar con la información y desplegarla a usuario dentro
 
 ![Evidencia]
 
-<br>
+<hr>
 
 <H2> Consulta PostalByCode </H2>
 
@@ -103,7 +103,7 @@ Finalmente, retornara con la información encontrada, para su despliegue con el 
 
 ![Evidencia]
 
-<br>
+<hr>
 
 <H2> Consulta PostalCity </H2>
 
@@ -129,4 +129,4 @@ Una vez realizado, se dirige ala base de datos, en la que, obtiene la informaci�
 
 ![Evidencia]
 
-<br>
+<hr>
