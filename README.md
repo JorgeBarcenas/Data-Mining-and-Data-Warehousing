@@ -9,7 +9,7 @@ Una vez ejecutado dicho comando, nos despliega un mensaje la terminal, que nos i
 
 # Consulta Tour
 Una vez ejecutado el comando, el sistema realizara conexión con el servidor.
-
+<img align="center">
 ![Conexion](https://raw.githubusercontent.com/JorgeBarcenas/Data-Mining-and-Data-Warehousing/master/Git/Consulta%20Tour/ConexionBD.png)
 
 Donde una vez conectado el servidor, se procede a abrir a aplicación Postman, en el cual dentro de la barra en la que se coloque, la URL. Donde se seleccionará la opción GET, para poder y se anexará la URL
