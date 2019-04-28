@@ -1,6 +1,6 @@
 <H1 align="center"> Ciencia de Datos </H1>
 
-*Dentro del siguiente repositorio, se encuentran los códigos y la documentación correspondiente, de los proyectos, MVC_Tour proyect y MVC_postal proyect.*
+*Dentro del siguiente repositorio, se encuentra el código y la documentación correspondiente, del proyecto, MVC_Tour proyect*
 
 <h1 align="center"> MVC TOUR PROYECT </H1>
 
