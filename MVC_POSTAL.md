@@ -2,7 +2,7 @@
   
 *En el presente repositorio, se almacena la documentación del proyecto MVC_postales*
 
-<br>
+<hr>
 
 <H1 align="center"> MVC_POSTAL </H1>
 
