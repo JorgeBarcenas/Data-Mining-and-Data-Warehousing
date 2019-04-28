@@ -113,22 +113,22 @@ En la siguiente consulta, se realizará una consulta, en la que se pretende list
 Para ello dentro de la URL, en la aplicación Postman, se escribirá la siguiente línea:
 **localhost:3000/api/ciudades**
 
-![Url]
+![Url](https://raw.githubusercontent.com/JorgeBarcenas/Data-Mining-and-Data-Warehousing/master/Git/Consulta%20PostCity/Url.png)
 
 Donde pasará por el archivo App.js, en el que buscará, el mismo nombre con el que fue insertado por el usuario.
 
-![App]
+![App](https://raw.githubusercontent.com/JorgeBarcenas/Data-Mining-and-Data-Warehousing/master/Git/Consulta%20PostCity/App.png)
 
 Una vez encontrado, el nombre lo redirigirá al archivo Admin.js, en el que se encontrará con las instrucciones que realizará dentro de la base de datos.
 
-![Admin]
+![Admin](https://raw.githubusercontent.com/JorgeBarcenas/Data-Mining-and-Data-Warehousing/master/Git/Consulta%20PostCity/Admin.png)
 
 Posteriormente, se conecta con el archivo Postal.js, para obtener la información de modelo, en el que se basará para la obtención de la información, así como la colección a la que accederá.
 
-![Postal]
+![Postal](https://raw.githubusercontent.com/JorgeBarcenas/Data-Mining-and-Data-Warehousing/master/Git/Consulta%20PostCity/Postal.png)
 
 Una vez realizado, se dirige ala base de datos, en la que, obtiene la información de la colección correspondiente, y posterior regresa, para el despliegue al usuario dentro de la aplicación Postman.
 
-![Evidencia]
+![Evidencia](https://raw.githubusercontent.com/JorgeBarcenas/Data-Mining-and-Data-Warehousing/master/Git/Consulta%20PostCity/Evidencia.png)
 
 <hr>
