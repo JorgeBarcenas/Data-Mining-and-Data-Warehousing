@@ -60,24 +60,24 @@ En la siguiente consulta, se realizará una búsqueda con condición, en la que,
 Para el siguiente ejemplo de tomar la siguiente ID: **5cbf9f4d5476ba2a647b6ab0**. Para ello se tendrá que escribir lo siguiente dentro del apartado de la URL:
 **localhost:3000/api/postales/5cbf9f4d5476ba2a647b6ab0**
 
-![Url]
+![Url](https://raw.githubusercontent.com/JorgeBarcenas/Data-Mining-and-Data-Warehousing/master/Git/Consulta%20PostID/Url.png)
 
 Donde posterior, la información pasa por el archivo App.js, donde se encuentra con el nombre correspondiente, previamente definido, para conectarlo con el siguiente archivo.
 
-![App]
+![App](https://raw.githubusercontent.com/JorgeBarcenas/Data-Mining-and-Data-Warehousing/master/Git/Consulta%20PostID/App.png)
 
 Donde una vez identificado, el nombre lo enlaza con el archivo Admin.js, en el que se encuentran definidas las consultas e instrucciones de cada uno de los nombres, en este caso se hará uso del siguiente:
 
-![Admin]
+![Admin](https://raw.githubusercontent.com/JorgeBarcenas/Data-Mining-and-Data-Warehousing/master/Git/Consulta%20PostID/Admin.png)
 
 El cual tendrá que pasar por el archivo, Posta.js, en el cual se encuentra el modelo, de la base de datos, para la identificación de las colecciones y documentos, dentro de la nube.
 
-![Postal]
+![Postal](https://raw.githubusercontent.com/JorgeBarcenas/Data-Mining-and-Data-Warehousing/master/Git/Consulta%20PostID/Postal.png)
 
 Para posteriormente, regresar con la información y desplegarla a usuario dentro de la aplicación Postman. El cual realizo el comando
 **Db.postal.find({_id: 5cbf9f4d5476ba2a647b6ab0})**
 
-![Evidencia]
+![Evidencia](https://raw.githubusercontent.com/JorgeBarcenas/Data-Mining-and-Data-Warehousing/master/Git/Consulta%20PostID/Evidencia.png)
 
 <hr>
 
