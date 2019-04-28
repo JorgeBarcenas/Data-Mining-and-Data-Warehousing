@@ -1,4 +1,4 @@
-<H2 align="center"> Ciencia de Datos </H2>
+<H1 align="center" color="blue"> Ciencia de Datos </H1>
 
 *Dentro del siguiente repositorio, se encuentran los códigos y la documentación correspondiente, de los proyectos, MVC_Tour proyect y MVC_postal proyect.*
 
