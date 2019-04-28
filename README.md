@@ -48,6 +48,7 @@ Donde una vez realizado el proceso, se dirige a la nube, junto a la base de dato
 
 ![Evidencia_2](https://raw.githubusercontent.com/JorgeBarcenas/Data-Mining-and-Data-Warehousing/master/Git/Consulta%20Tour/Evidencia%20Consulta%202.png)
 
+<hr>
 
 <H2> Consulta inqId </H2>
 Se realizará una consulta a la colección Tour, dentro de nuestra base de datos en la nube, en la que constará de una búsqueda específica, por ID, en la que una vez posicionado en la aplicación Postman, se introducirá, en la barra de búsqueda URL, lo siguiente: **localhost:3000/api/tours/”ID_definido”**.
@@ -71,6 +72,8 @@ Donde posteriormente nos dirige, al archivo Tour.js, donde ya este especificado 
 Donde posterior, se dirigirá a la base de datos dentro de nuestra nube, en la que se realizará la búsqueda de la información de la consulta, la cual corresponde a una consulta, de un registro (ID) especifico: **db.tour.find({ID: 5cbf9d125476ba2a647aa252})**. Donde una vez realizado el proceso, se obtendrá la información y se le desplegará al usuario en la aplicación Postman.
 
 ![Evidencia](https://raw.githubusercontent.com/JorgeBarcenas/Data-Mining-and-Data-Warehousing/master/Git/Consulta%20InqID/Evidencia.png)
+
+<hr>
 
 <H2> Consult InqByName </H2>
 Se realizará una consulta dentro de la colección Tour, dentro de nuestra base de datos en Atlas, en la que constará de una búsqueda específica, por nombre del tour, en la que una vez posicionado en la aplicación Postman, se introducirá, en la barra de búsqueda URL, lo siguiente:
@@ -97,6 +100,8 @@ En el cual, al finalizar, se desplegará toda la información que cumpla con la 
 
 ![Evidencia](https://raw.githubusercontent.com/JorgeBarcenas/Data-Mining-and-Data-Warehousing/master/Git/Consulta%20InqByName/Evidencia.PNG)
 
+<hr>
+
 <H2> Insert Tour </H2>
 Esta ocasión se realizará un insert dentro de la colección Tour dentro de nuestra base de datos learning_mongo, almacenada en nuestra nube Atlas, en la cual en el apartado izquierdo donde se coloca la URL, se tendrá que cambiar la condición de **GET a POST**.
 De igual manera, se tendrá que dirigir a la pestaña “Body”, posteriormente seleccionar la opción “Raw”, en la cual nos desplegará una terminal, donde se tendrá que introducir, toda a información que se requiera registrar en la colección.
@@ -114,6 +119,8 @@ La cual, dicha leyenda esta especificada, dentro del archivo Admin.js
 En el cual podemos verificar, la información cuando se realiza una respectiva consulta dentro de la colección Tour. Verificando de esta manera, el almacenamiento de la información previamente enviada.
 
 ![Evidencia](https://raw.githubusercontent.com/JorgeBarcenas/Data-Mining-and-Data-Warehousing/master/Git/Insert%20Tour/Evidencia.png)
+
+<hr>
 
 <H2> Eliminar Tour </H2>
 Se realizará la eliminación completa de un objeto, para este servicio, se requiere posicionarse dentro la aplicación Postman, en la que se requiere seleccionar el servicio DELETE, de la parte izquierda donde se coloca la URL.
