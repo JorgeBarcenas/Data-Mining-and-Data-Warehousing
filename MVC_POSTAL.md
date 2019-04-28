@@ -13,6 +13,8 @@ El cual consta de el usuario y contraseña de nuestro administrador, de nuestra 
 
 ![Key]
 
+<hr>
+
 <H2> Comando Node </H2>
 
 Una vez realizado la configuración correspondiente, se continuará abriendo una terminal dentro la aplicación Visual Studio Code, en el que se posicionará dentro de la carpeta en la que se encuentra, nuestros archivos correspondientes al proyecto Postal y se escribirá el siguiente comando:
