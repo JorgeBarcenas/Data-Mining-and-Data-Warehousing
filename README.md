@@ -1,17 +1,17 @@
-<H1 align="center" color="blue"> Ciencia de Datos </H1>
+<H1 align="center"> Ciencia de Datos </H1>
 
 *Dentro del siguiente repositorio, se encuentran los códigos y la documentación correspondiente, de los proyectos, MVC_Tour proyect y MVC_postal proyect.*
 
-<h1 align="center"> MVC PROYECT </H1>
+<h1 align="center"> MVC TOUR PROYECT </H1>
 
-# Comando Node
+<H2> Comando Node </H2>
 Una vez configurado la conexión a la API, dentro de la aplicación Visual Studio Code, se abre una terminal, donde se ejecutará el comando, Node junto con el nombre del archivo que ejecutará **“APP.JS”**.
 
 ![Comando Node](https://raw.githubusercontent.com/JorgeBarcenas/Data-Mining-and-Data-Warehousing/master/Git/Comando%20Node/comando%20node.png)
 
 Una vez ejecutado dicho comando, nos despliega un mensaje la terminal, que nos indica que sea ah realizado la conexion al servidor exitosamente, por lo que se puede proseguir con la ejecución de las pruebas.
 
-# Consulta Tour
+<H2> Consulta Tour </H2>
 Una vez ejecutado el comando, el sistema realizara conexión con el servidor.
 
 ![Conexion](https://raw.githubusercontent.com/JorgeBarcenas/Data-Mining-and-Data-Warehousing/master/Git/Consulta%20Tour/ConexionBD.png)
@@ -47,7 +47,7 @@ Donde una vez realizado el proceso, se dirige a la nube, junto a la base de dato
 ![Evidencia_2](https://raw.githubusercontent.com/JorgeBarcenas/Data-Mining-and-Data-Warehousing/master/Git/Consulta%20Tour/Evidencia%20Consulta%202.png)
 
 
-# Consulta inqId
+<H2> Consulta inqId </H2>
 Se realizará una consulta a la colección Tour, dentro de nuestra base de datos en la nube, en la que constará de una búsqueda específica, por ID, en la que una vez posicionado en la aplicación Postman, se introducirá, en la barra de búsqueda URL, lo siguiente: **localhost:3000/api/tours/”ID_definido”**.
 
 En el que se ingresará algún ID, existente dentro de nuestra colección Tour, donde en este caso se hará uso del siguiente ID: **5cbf9d125476ba2a647aa252**.
@@ -70,7 +70,7 @@ Donde posterior, se dirigirá a la base de datos dentro de nuestra nube, en la q
 
 ![Evidencia](https://raw.githubusercontent.com/JorgeBarcenas/Data-Mining-and-Data-Warehousing/master/Git/Consulta%20InqID/Evidencia.png)
 
-# Consult InqByName
+<H2> Consult InqByName </H2>
 Se realizará una consulta dentro de la colección Tour, dentro de nuestra base de datos en Atlas, en la que constará de una búsqueda específica, por nombre del tour, en la que una vez posicionado en la aplicación Postman, se introducirá, en la barra de búsqueda URL, lo siguiente:
 **localhost:3000/api/tours/” Nombre de tour definido”**
 En el que se ingresará un Nombre de tour, existente dentro de nuestra colección Tour, para este ejemplo, se hará uso del siguiente nombre de tour: **In the Steps of John Muir**
@@ -95,7 +95,7 @@ En el cual, al finalizar, se desplegará toda la información que cumpla con la 
 
 ![Evidencia](https://raw.githubusercontent.com/JorgeBarcenas/Data-Mining-and-Data-Warehousing/master/Git/Consulta%20InqByName/Evidencia.PNG)
 
-# Insert Tour
+<H2> Insert Tour </H2>
 Esta ocasión se realizará un insert dentro de la colección Tour dentro de nuestra base de datos learning_mongo, almacenada en nuestra nube Atlas, en la cual en el apartado izquierdo donde se coloca la URL, se tendrá que cambiar la condición de **GET a POST**.
 De igual manera, se tendrá que dirigir a la pestaña “Body”, posteriormente seleccionar la opción “Raw”, en la cual nos desplegará una terminal, donde se tendrá que introducir, toda a información que se requiera registrar en la colección.
 
@@ -113,7 +113,7 @@ En el cual podemos verificar, la información cuando se realiza una respectiva c
 
 ![Evidencia](https://raw.githubusercontent.com/JorgeBarcenas/Data-Mining-and-Data-Warehousing/master/Git/Insert%20Tour/Evidencia.png)
 
-# Eliminar Tour
+<H2> Eliminar Tour </H2>
 Se realizará la eliminación completa de un objeto, para este servicio, se requiere posicionarse dentro la aplicación Postman, en la que se requiere seleccionar el servicio DELETE, de la parte izquierda donde se coloca la URL.
 Y escribir sobre la parte de URL, la siguiente línea:
 
