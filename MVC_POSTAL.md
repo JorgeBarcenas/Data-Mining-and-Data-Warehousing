@@ -11,7 +11,7 @@
 La configuración del siguiente proyecto, es similar al proyecto **MVC_TOUR** previamente presentado, en el que se, tiene que tiene que tener configurado, el archivo Key, el cual nos permite, ingresar a nuestra base de datos Atlas, en la que se encuentran nuestras colecciones.
 El cual consta de el usuario y contraseña de nuestro administrador, de nuestra nube, así como las tres conexiones que disponemos, con su respectivo puerto y nombre. De igual manera, se especifica la base de datos a la que se accederá.
 
-![Key]
+![Key](https://raw.githubusercontent.com/JorgeBarcenas/Data-Mining-and-Data-Warehousing/master/Git/Key_Confg/Key.png)
 
 <hr>
 
@@ -20,7 +20,7 @@ El cual consta de el usuario y contraseña de nuestro administrador, de nuestra 
 Una vez realizado la configuración correspondiente, se continuará abriendo una terminal dentro la aplicación Visual Studio Code, en el que se posicionará dentro de la carpeta en la que se encuentra, nuestros archivos correspondientes al proyecto Postal y se escribirá el siguiente comando:
 **Node app.js**
 
-![Node]
+![Node](https://raw.githubusercontent.com/JorgeBarcenas/Data-Mining-and-Data-Warehousing/master/Git/Key_Confg/Node.png)
 
 En el que comenzara con la conexión a la base de datos, para poder así realizar pruebas de los siguientes servicios Web (GET, POST, PUT DELETE). Mediante la aplicación de Postman.
 
