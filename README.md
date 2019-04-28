@@ -11,7 +11,7 @@ Una vez configurado la conexión a la API, dentro de la aplicación Visual Studi
 
 Una vez ejecutado dicho comando, nos despliega un mensaje la terminal, que nos indica que sea ah realizado la conexion al servidor exitosamente, por lo que se puede proseguir con la ejecución de las pruebas.
 
-<hr height="15px">
+hr {border: 0; height: 0; box-shadow: 0 1px 5px 1px purple
 
 <H2> Consulta Tour </H2>
 Una vez ejecutado el comando, el sistema realizara conexión con el servidor.
