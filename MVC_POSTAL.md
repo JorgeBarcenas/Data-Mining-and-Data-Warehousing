@@ -86,24 +86,24 @@ Para posteriormente, regresar con la información y desplegarla a usuario dentro
 La siguiente consulta, tiene por fin, realizar una consulta, mediante una condición, la cual es desplegar, aquellos objetos que tengan por igual, mismo código postal, ingresado por el usuario, para este ejemplo, tomaremos el siguiente código postal:**50994**, donde dentro del apartado de URL, se introducirá lo siguiente:
 **localhost:3000/api/postales/ciudades/50994**
 
-![Url]
+![Url](https://raw.githubusercontent.com/JorgeBarcenas/Data-Mining-and-Data-Warehousing/master/Git/Consulta%20PostCodCity/Url.png)
 
 Donde pasará por el archivo App.js, para la búsqueda del nombre, con el que fue especificado previamente.
 
-![App]
+![App](https://raw.githubusercontent.com/JorgeBarcenas/Data-Mining-and-Data-Warehousing/master/Git/Consulta%20PostCodCity/App.png)
 
 Para posteriormente, dirigirse al archivo, Admin.js, en el que se especificaran las instrucciones de la consulta, que se realiará.
 
-![Admin]
+![Admin](https://raw.githubusercontent.com/JorgeBarcenas/Data-Mining-and-Data-Warehousing/master/Git/Consulta%20PostCodCity/Admin.png)
 
 Posteriormente se dirigirá al archivo Postal.js, en el que encuentra, el modelo de la base de datos, conforme a las necesidades de las consultas que realizaremos, dentro de nuestras colecciones.
 
-![Postal]
+![Postal](https://raw.githubusercontent.com/JorgeBarcenas/Data-Mining-and-Data-Warehousing/master/Git/Consulta%20PostCodCity/Postal.png)
 
 Finalmente, retornara con la información encontrada, para su despliegue con el usuario dentro de la aplicación Postman, mediante el comando:
 **Db.postal.find({d_codigo:50994})**
 
-![Evidencia]
+![Evidencia](https://raw.githubusercontent.com/JorgeBarcenas/Data-Mining-and-Data-Warehousing/master/Git/Consulta%20PostCodCity/Evidencia.png)
 
 <hr>
 
