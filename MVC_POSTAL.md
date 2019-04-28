@@ -1,6 +1,6 @@
 <H1 align="center"> Ciencia de Datos </H1
   
-*En el presente repositorio, se almacena la documentación del proyecto MVC_postales, de cada una de las consultas realizadas*
+*En el presente repositorio, se almacena la documentación del proyecto MVC_postales, asi como las consultas realizadas*
 
 <hr>
 
