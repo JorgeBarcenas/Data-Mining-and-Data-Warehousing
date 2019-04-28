@@ -91,3 +91,45 @@ En el cual, al finalizar, se desplegará toda la información que cumpla con la 
 
 ![Evidencia](https://raw.githubusercontent.com/JorgeBarcenas/Data-Mining-and-Data-Warehousing/master/Git/Consulta%20InqByName/Evidencia.PNG)
 
+# Insert Tour
+Esta ocasión se realizará un insert dentro de la colección Tour dentro de nuestra base de datos learning_mongo, almacenada en nuestra nube Atlas, en la cual en el apartado izquierdo donde se coloca la URL, se tendrá que cambiar la condición de **GET a POST**.
+De igual manera, se tendrá que dirigir a la pestaña “Body”, posteriormente seleccionar la opción “Raw”, en la cual nos desplegará una terminal, donde se tendrá que introducir, toda a información que se requiera registrar en la colección.
+
+![URL]
+
+Donde se nos desplegará una confirmación en la terminal, cuando se allá generado la información dentro de la colección.
+
+![Terminal]
+
+La cual, dicha leyenda esta especificada, dentro del archivo Admin.js
+
+![Admin]
+
+En el cual podemos verificar, la información cuando se realiza una respectiva consulta dentro de la colección Tour. Verificando de esta manera, el almacenamiento de la información previamente enviada.
+
+![Evidencia]
+
+#Eliminar Tour
+Se realizará la eliminación completa de un objeto, para este servicio, se requiere posicionarse dentro la aplicación Postman, en la que se requiere seleccionar el servicio DELETE, de la parte izquierda donde se coloca la URL.
+Y escribir sobre la parte de URL, la siguiente línea:
+
+**localhost:3000/api/tours/5cc54d84d4755a33b0084179**
+
+![URL]
+
+Una vez introducido la información correspondiente, el programa, inicia en el archivo Admi.js, en el que obtiene el nombre de la operación que realizamos.
+
+![App]
+
+Para posterior, dirigirse al archivo Admin.js, en el que se encuentra definida la operación a realizar dentro de la base de datos.
+
+![Admin]
+
+Donde procede a acceder a la base de datos, para ejecutar las instrucciones, donde le envía una respuesta a el usuario mediante una leyenda, confirmándole al usuario que la instrucción enviada resulto exitosa.
+
+![Terminal]
+
+Donde si se realiza una consulta del elemento eliminado, no se desplegará ninguna información del elemento previamente eliminado.
+
+![Evidencia]
+
