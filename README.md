@@ -70,23 +70,23 @@ Se realizará una consulta dentro de la colección Tour, dentro de nuestra base 
 **localhost:3000/api/tours/” Nombre de tour definido”**
 En el que se ingresará un Nombre de tour, existente dentro de nuestra colección Tour, para este ejemplo, se hará uso del siguiente nombre de tour: **In the Steps of John Muir**
 
-![URL]
+![URL](https://raw.githubusercontent.com/JorgeBarcenas/Data-Mining-and-Data-Warehousing/master/Git/Consulta%20InqByName/URL.PNG)
 
 De igual manera realizará el mismo proceso que las consultas previamente expuestas, donde una vez realizado la petición en Postman, inicia en el archivo **app.js**, donde busca, el formato al que pertenece. 
 
-![APP]
+![APP](https://raw.githubusercontent.com/JorgeBarcenas/Data-Mining-and-Data-Warehousing/master/Git/Consulta%20InqByName/App.PNG)
 
 El cual redirige la información al archivo **admin.js** donde busca, las especificaciones de la consulta que se realizaran, así como la leyenda que se desplegará en caso de tener éxito en la búsqueda de la información.
 
-![ADMIN]
+![ADMIN](https://raw.githubusercontent.com/JorgeBarcenas/Data-Mining-and-Data-Warehousing/master/Git/Consulta%20InqByName/Admin.PNG)
 
 El cual solicita el archivo **Tour.js**, para basarse en el modelo, descrito en e archivo, para la búsqueda de las solicitudes, así como la colección a la que tendrá que acceder dentro de la base de datos.
 
-![Tour]
+![Tour](https://raw.githubusercontent.com/JorgeBarcenas/Data-Mining-and-Data-Warehousing/master/Git/Consulta%20InqByName/Tour.PNG)
 
 Donde una vez realizado, el procedimiento se realizará la petición a nuestra base de datos en Atlas, para la obtención de información de la colección Tour, en la cual, se realizará, una consulta:
 **db.tour.find({tourName:In the Steps of John Muir})**
 En el cual, al finalizar, se desplegará toda la información que cumpla con la condición, solicitada por el usuario dentro de la aplicación Postman.
 
-![Evidencia]
+![Evidencia](https://raw.githubusercontent.com/JorgeBarcenas/Data-Mining-and-Data-Warehousing/master/Git/Consulta%20InqByName/Evidencia.PNG)
 
