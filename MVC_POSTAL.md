@@ -32,25 +32,25 @@ Una vez realizado la conexión con la base de datos, se comenzará con la realiz
 Por lo que se abrirá la aplicación Postman, en la que, dentro del apartado de URL, se escribirá lo siguiente:
 **localhost:3000/api/postales/**
 
-![URL]
+![URL](https://raw.githubusercontent.com/JorgeBarcenas/Data-Mining-and-Data-Warehousing/master/Git/Consulta%20Postal/URL.png)
 
 Donde posterior se continuará con él envió de la petición, conforme la URL, solicitada dentro de la URL.
 La cual la petición pasa por el archivo App.js, el cual, identifica el nombre de la petición, que esta previamente definida dentro del archivo, para así enviarlo al siguiente archivo js, para la búsqueda de instrucciones.
 
-![App]
+![App](https://raw.githubusercontent.com/JorgeBarcenas/Data-Mining-and-Data-Warehousing/master/Git/Consulta%20Postal/App.png)
 
 Donde lo redirige a el archivo Admin.js, en el cual contiene la consulta y las instrucciones que realizara dicha petición.
 
-![Admin]
+![Admin](https://raw.githubusercontent.com/JorgeBarcenas/Data-Mining-and-Data-Warehousing/master/Git/Consulta%20Postal/Admin.png)
 
 Para ello pasa por el archivo Postal.js, en la que se especifica un modelo de la base de datos, para hacer más efectiva la búsqueda dentro de la base de datos, con el uso de la librería Mongoose, de igual manera se especifica, la colecciona a la que realizara la conexión y obtención de información.
 
-![Postal]
+![Postal](https://raw.githubusercontent.com/JorgeBarcenas/Data-Mining-and-Data-Warehousing/master/Git/Consulta%20Postal/Postal.png)
 
 Donde una vez conociendo las instrucciones de la petición a realizar, se conecta a la base de datos de nuestra nube, en la que ejecutará la consulta definida dentro del archivo Admin.js, donde una vez obtenida la información la despliega al usuario, dentro del programa Postman. El cual realiza una consulta general de todos los datos dentro de la colección Postal.
 **Db.postal.find()**
 
-![Evidencia]
+![Evidencia](https://raw.githubusercontent.com/JorgeBarcenas/Data-Mining-and-Data-Warehousing/master/Git/Consulta%20Postal/Evidencia.png)
 
 <hr>
 
