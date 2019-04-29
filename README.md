@@ -361,6 +361,6 @@ El servicio de Web REST consta de 4 parametros:
  <li type="square"> <b> Despliegue de información: </b> Una vez obtenida la información se desppliega la información a el usuario conforma a la informacón encontrada, en base a la consulta. </li>
  </ul>
  
- ![MVCtour]
+ ![MVCtour](https://raw.githubusercontent.com/JorgeBarcenas/MVC/master/Git/MVC/Tour.PNG)
  
 <hr>
