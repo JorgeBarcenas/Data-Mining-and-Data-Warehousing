@@ -186,23 +186,42 @@ Donde posterior, se dirigirá a la base de datos dentro de nuestra nube, en la q
 <hr>
 
 <H2> Consult InqByName </H2>
+
+<ul>
+ <li type="circle"> Configuración de URL en Postman </li>
+ <li type="circle"> Archivo App.js </li>
+ <li type="circle"> Archivo Admin.js </li>
+ <li type="circle"> Archivo Tour.js </li>
+ <li type="circle"> Resultado </li>
+</ul> 
+
+<h3> <b> Configuración de URL en Postman </b> </h3>
+
 Se realizará una consulta dentro de la colección Tour, dentro de nuestra base de datos en Atlas, en la que constará de una búsqueda específica, por nombre del tour, en la que una vez posicionado en la aplicación Postman, se introducirá, en la barra de búsqueda URL, lo siguiente:
 **localhost:3000/api/tours/” Nombre de tour definido”**
 En el que se ingresará un Nombre de tour, existente dentro de nuestra colección Tour, para este ejemplo, se hará uso del siguiente nombre de tour: **In the Steps of John Muir**
 
 ![URL](https://raw.githubusercontent.com/JorgeBarcenas/Data-Mining-and-Data-Warehousing/master/Git/Consulta%20InqByName/URL.PNG)
 
+<h3> <b> Archivo App.js </b> </h3>
+
 De igual manera realizará el mismo proceso que las consultas previamente expuestas, donde una vez realizado la petición en Postman, inicia en el archivo **app.js**, donde busca, el formato al que pertenece. 
 
 ![APP](https://raw.githubusercontent.com/JorgeBarcenas/Data-Mining-and-Data-Warehousing/master/Git/Consulta%20InqByName/App.PNG)
+
+<h3> <b> Archivo Admin.js </b> </h3>
 
 El cual redirige la información al archivo **admin.js** donde busca, las especificaciones de la consulta que se realizaran, así como la leyenda que se desplegará en caso de tener éxito en la búsqueda de la información.
 
 ![ADMIN](https://raw.githubusercontent.com/JorgeBarcenas/Data-Mining-and-Data-Warehousing/master/Git/Consulta%20InqByName/Admin.png)
 
+<h3> <b> Archivo Tour.js </b> </h3>
+
 El cual solicita el archivo **Tour.js**, para basarse en el modelo, descrito en e archivo, para la búsqueda de las solicitudes, así como la colección a la que tendrá que acceder dentro de la base de datos.
 
 ![Tour](https://raw.githubusercontent.com/JorgeBarcenas/Data-Mining-and-Data-Warehousing/master/Git/Consulta%20InqByName/Tour.png)
+
+<h3> <b> Resultado </b> </h3>
 
 Donde una vez realizado, el procedimiento se realizará la petición a nuestra base de datos en Atlas, para la obtención de información de la colección Tour, en la cual, se realizará, una consulta:
 **db.tour.find({tourName:In the Steps of John Muir})**
@@ -213,6 +232,16 @@ En el cual, al finalizar, se desplegará toda la información que cumpla con la 
 <hr>
 
 <H2> Insert Tour </H2>
+
+<ul>
+ <li type="circle"> Configuración de URL en Postman </li>
+ <li type="circle"> Archivo Admin.js </li>
+ <li type="circle"> Archivo Tour.js </li>
+ <li type="circle"> Resultado </li>
+</ul> 
+
+<h3> <b> Configuración de URL en Postman </b> </h3>
+
 Esta ocasión se realizará un insert dentro de la colección Tour dentro de nuestra base de datos learning_mongo, almacenada en nuestra nube Atlas, en la cual en el apartado izquierdo donde se coloca la URL, se tendrá que cambiar la condición de **GET a POST**.
 De igual manera, se tendrá que dirigir a la pestaña “Body”, posteriormente seleccionar la opción “Raw”, en la cual nos desplegará una terminal, donde se tendrá que introducir, toda a información que se requiera registrar en la colección.
 
@@ -222,9 +251,13 @@ Donde se nos desplegará una confirmación en la terminal, cuando se allá gener
 
 ![Terminal](https://raw.githubusercontent.com/JorgeBarcenas/Data-Mining-and-Data-Warehousing/master/Git/Insert%20Tour/Terminal.png)
 
+<h3> <b> Archivo Admin.js </b> </h3>
+
 La cual, dicha leyenda esta especificada, dentro del archivo Admin.js
 
 ![Admin](https://raw.githubusercontent.com/JorgeBarcenas/MVC/master/Git/Insert%20Tour/Fuente.png)
+
+<h3> <b> Resultado </b> </h3>
 
 En el cual podemos verificar, la información cuando se realiza una respectiva consulta dentro de la colección Tour. Verificando de esta manera, el almacenamiento de la información previamente enviada.
 
@@ -233,6 +266,16 @@ En el cual podemos verificar, la información cuando se realiza una respectiva c
 <hr>
 
 <H2> Eliminar Tour </H2>
+
+<ul>
+ <li type="circle"> Configuración de URL en Postman </li>
+ <li type="circle"> Archivo App.js </li>
+ <li type="circle"> Archivo Admin.js </li>
+ <li type="circle"> Resultado </li>
+</ul> 
+
+<h3> <b> Configuración de URL en Postman </b> </h3>
+
 Se realizará la eliminación completa de un objeto, para este servicio, se requiere posicionarse dentro la aplicación Postman, en la que se requiere seleccionar el servicio DELETE, de la parte izquierda donde se coloca la URL.
 Y escribir sobre la parte de URL, la siguiente línea:
 
@@ -240,9 +283,13 @@ Y escribir sobre la parte de URL, la siguiente línea:
 
 ![URL](https://raw.githubusercontent.com/JorgeBarcenas/Data-Mining-and-Data-Warehousing/master/Git/Delete%20Tour/URL.png)
 
+<h3> <b> Archivo App.js </b> </h3>
+
 Una vez introducido la información correspondiente, el programa, inicia en el archivo Admi.js, en el que obtiene el nombre de la operación que realizamos.
 
 ![App](https://raw.githubusercontent.com/JorgeBarcenas/Data-Mining-and-Data-Warehousing/master/Git/Delete%20Tour/App.png)
+
+<h3> <b> Archivo Admin.js </b> </h3>
 
 Para posterior, dirigirse al archivo Admin.js, en el que se encuentra definida la operación a realizar dentro de la base de datos.
 
@@ -251,6 +298,8 @@ Para posterior, dirigirse al archivo Admin.js, en el que se encuentra definida l
 Donde procede a acceder a la base de datos, para ejecutar las instrucciones, donde le envía una respuesta a el usuario mediante una leyenda, confirmándole al usuario que la instrucción enviada resulto exitosa.
 
 ![Terminal](https://raw.githubusercontent.com/JorgeBarcenas/Data-Mining-and-Data-Warehousing/master/Git/Delete%20Tour/Terminal.png)
+
+<h3> <b> Resultado </b> </h3>
 
 Donde si se realiza una consulta del elemento eliminado, no se desplegará ninguna información del elemento previamente eliminado.
 
