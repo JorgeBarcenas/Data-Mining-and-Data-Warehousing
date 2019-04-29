@@ -187,7 +187,7 @@ Donde se nos desplegará una confirmación en la terminal, cuando se allá gener
 
 La cual, dicha leyenda esta especificada, dentro del archivo Admin.js
 
-![Admin](https://raw.githubusercontent.com/JorgeBarcenas/Data-Mining-and-Data-Warehousing/master/Git/Insert%20Tour/Admin.PNG)
+![Admin](https://raw.githubusercontent.com/JorgeBarcenas/MVC/master/Git/Insert%20Tour/Fuente.png)
 
 En el cual podemos verificar, la información cuando se realiza una respectiva consulta dentro de la colección Tour. Verificando de esta manera, el almacenamiento de la información previamente enviada.
 
