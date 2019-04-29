@@ -254,16 +254,16 @@ La cual consiste en **localhost** nombre de nuestro servidor, seguido de **3000*
 Donde para la inserción de información se dirigirá a la pestaña **Body**, junto con la opción **Raw**, se escribirá, la información de los siguientes documentos:
 
 <ul>
- <li> tourName </li>
- <li> tourDifficuly </li>
- <li> tourDescription </li>
- <li> tourLenght </li>
- <li> tourPrice </li>
- <li> tourTags </li>
- <li> tourPackage </li>
- <li> tourOrganizer </li>
- <li> organizarName </li>
- <li> organizerPhone </li>
+ <li> tourName <b> String </b> </li>
+ <li> tourDifficuly <b> String </b> </li>
+ <li> tourDescription <b> String </b> </li>
+ <li> tourLenght <b> Number </b> </li> 
+ <li> tourPrice <b> Number </b> </li>
+ <li> tourTags <b> String </b> </li>
+ <li> tourPackage <b> String </b> </li>
+ <li> tourOrganizer <b> String </b> </li>
+ <li> organizarName <b> String </b> </li>
+ <li> organizerPhone <b> String </b> </li>
  </ul>
 
 ![URL](https://raw.githubusercontent.com/JorgeBarcenas/Data-Mining-and-Data-Warehousing/master/Git/Insert%20Tour/URL.PNG)
@@ -327,4 +327,40 @@ Donde si se realiza una consulta del elemento eliminado, no se desplegará ningu
 
 ![Evidencia](https://raw.githubusercontent.com/JorgeBarcenas/Data-Mining-and-Data-Warehousing/master/Git/Delete%20Tour/Evidencia.png)
 
+<hr>
+
+<H2> Funcionamiento de sistema </H2>
+
+<ul>
+ <li type="circle"> Tipos de Parametros </li>
+ <li type="circle"> Flujo MVC </li>
+</ul> 
+
+<H3> <b> Tipos de Parametros </b> </h3>
+
+El servicio de Web REST consta de 4 parametros:
+
+<ul>
+ <li> <b> HeadParams: </b> Son los parámetros incluidos en el encabezado de la solicitud, generalmente relacionados con la autorización. </li>
+ <li> <b> PathParams: </b> Son los parámetros dentro de la ruta del punto final, antes de la cadena de consulta. Estos se llegan a  poner dentro de llaves dentro de las colecciones. </li>
+ <li> <b> QueryParams: </b> Son parámetros en la cadena de consulta del punto final, normalmente van despues del caracter especial (?), denrto de la ruta. </li>
+ <li> <b> BodyParams: </b> Son parámetros incluidos dentro del cuerpo de la solicitud que se enviará. Usualmente enviado como JSON. </li>
+ </ul>
+ 
+ <hr>
+ 
+ <H3> <b> Flujo MVC </b> </H3>
+ 
+<ul>
+ <li type="square"> <b> Postman URL: </b> Inicialmente se coloca dentro de la aplicación Postman, el tipo de servicio web REST, que deseamos realizar, <b> GET, POST, PUT, DELETE </b>, posteriormente, se introduce la URL, y se envia la información. </li>
+ <li type="square"> <b> Archivo App.js: </b> La URL enviada por el usuario desde Postman, llega a el archivo App.js, en la que busca la misma línea ingresada por el usuario <b> (localhost/3000/api/tour) </b>, dentro del archivo, donde una vez identificada, se dirije a el archivo Admin.js en la carpeta controlador. </li>
+ <li type="square"> <b> Archivo Admin.js: </b> En este archivo, se buscan los procedimientos que realizara, la URL introducida por el usuario, para posteriormente, su ejecución dentro de la base de datos. </li>
+ <li type="square"> <b> Archivo Tour.js: </b> Dentro de este archivo, se encuentra un modelo, de la base de datos a la que se accedera, con la finalidad de optimizar la busqueda dentro de la colección en la base de datos de nuestra nube. </li>
+ <li type="square"> <b> Archivo Key.js: </b> Este archivo contiene las credenciales y la configuración para la conexión con la base de datos en la nube. </li>
+ <li type="square"> <b> Base de datos: </b> Una vez enviado la información a la base de datos dentro de nuestra nube, se procedera a realizarse la consulta correspondiente al nombre de la URL proporcionada por el usuario. Donde una vez encontrado,  la información, le envá un mensaje a el usuario, confirmando su busqueda, así como el envío de la respectiva información a e usuario </li>
+ <li type="square"> <b> Despliegue de información: </b> Una vez obtenida la información se desppliega la información a el usuario conforma a la informacón encontrada, en base a la consulta. </li>
+ </ul>
+ 
+ ![MVCtour]
+ 
 <hr>
