@@ -111,7 +111,7 @@ El cual toma la ayuda del archivo Tour.js, en el que con el uso del driver Mongo
 
 Donde cabe mencionar, que se especifico la colección a la que se entrara para la obtención de datos, mediante el código:
 
-![Linea_Tour](https://raw.githubusercontent.com/JorgeBarcenas/Data-Mining-and-Data-Warehousing/master/Git/Consulta%20Tour/Tourlinea.png)
+![Linea_Tour](https://raw.githubusercontent.com/JorgeBarcenas/MVC/master/Git/Consulta%20Tour/Tourlinea.PNG)
 
  Ya que, al tener más de 1 colección en nuestra misma base de datos, a la hora de realizar la conexión a la base de datos, esta entra en conflicto, ya que, dentro del archivo Tour.js no se especifica la colección a la cual pertenece el modelo, creado para la obtención de información.
 
