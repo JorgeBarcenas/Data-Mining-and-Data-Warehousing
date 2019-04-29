@@ -102,8 +102,9 @@ Una vez ejecutado el comando, el sistema realizara conexión con el servidor.
 
 <h3> <b> Configuración URL en Postman </b> </h3>
 
-Donde una vez conectado el servidor, se procede a abrir a aplicación Postman, en el cual dentro de la barra en la que se coloque, la URL. Donde se seleccionará la opción GET, para poder y se anexará la URL
+Donde una vez conectado el servidor, se procede a abrir a aplicación Postman, en el cual dentro de la barra en la que se coloque, la URL. Donde se seleccionará la opción **GET**, seguida de la siguiente URL
 **localhost:3000/api/tours/**
+La cual consiste en **localhost** nombre de nuestro servidor, seguido de **3000** el cual es el puerto por el que se transmite información dentro de la aplicación Postman, **api/tours** el cual es el nombre con el que se manda a llamar las instrucciones de la consulta.
 
 ![URL_Postman](https://raw.githubusercontent.com/JorgeBarcenas/Data-Mining-and-Data-Warehousing/master/Git/Consulta%20Tour/URLPostman.png)
 
@@ -137,6 +138,7 @@ Donde una vez realizado el proceso, se dirige a la nube, junto a la base de dato
 
 ![Evidencia_1](https://raw.githubusercontent.com/JorgeBarcenas/Data-Mining-and-Data-Warehousing/master/Git/Consulta%20Tour/Evidencia%20Consulta%201.png)
 
+
 ![Evidencia_2](https://raw.githubusercontent.com/JorgeBarcenas/Data-Mining-and-Data-Warehousing/master/Git/Consulta%20Tour/Evidencia%20Consulta%202.png)
 
 <hr>
@@ -156,6 +158,7 @@ Donde una vez realizado el proceso, se dirige a la nube, junto a la base de dato
 Se realizará una consulta a la colección Tour, dentro de nuestra base de datos en la nube, en la que constará de una búsqueda específica, por ID, en la que una vez posicionado en la aplicación Postman, se introducirá, en la barra de búsqueda URL, lo siguiente: **localhost:3000/api/tours/”ID_definido”**.
 
 En el que se ingresará algún ID, existente dentro de nuestra colección Tour, donde en este caso se hará uso del siguiente ID: **5cbf9d125476ba2a647aa252**.
+La cual consiste en **localhost** nombre de nuestro servidor, seguido de **3000** el cual es el puerto por el que se transmite información dentro de la aplicación Postman, **api/tours** el cual es el nombre con el que se manda a llamar las instrucciones de la consulta y **5cbf9d125476ba2a647aa252** el cual es la condición con la que se realizara las instrucciones.
 
 ![URLPostman](https://raw.githubusercontent.com/JorgeBarcenas/Data-Mining-and-Data-Warehousing/master/Git/Consulta%20InqID/URL.png)
 
@@ -200,6 +203,7 @@ Donde posterior, se dirigirá a la base de datos dentro de nuestra nube, en la q
 Se realizará una consulta dentro de la colección Tour, dentro de nuestra base de datos en Atlas, en la que constará de una búsqueda específica, por nombre del tour, en la que una vez posicionado en la aplicación Postman, se introducirá, en la barra de búsqueda URL, lo siguiente:
 **localhost:3000/api/tours/” Nombre de tour definido”**
 En el que se ingresará un Nombre de tour, existente dentro de nuestra colección Tour, para este ejemplo, se hará uso del siguiente nombre de tour: **In the Steps of John Muir**
+La cual consiste en **localhost** nombre de nuestro servidor, seguido de **3000** el cual es el puerto por el que se transmite información dentro de la aplicación Postman, **api/tours** el cual es el nombre con el que se manda a llamar las instrucciones de la consulta y **In the Steps of John Muir** el cual es la condición con la que se realizara las instrucciones.
 
 ![URL](https://raw.githubusercontent.com/JorgeBarcenas/Data-Mining-and-Data-Warehousing/master/Git/Consulta%20InqByName/URL.PNG)
 
@@ -244,10 +248,27 @@ En el cual, al finalizar, se desplegará toda la información que cumpla con la 
 
 Esta ocasión se realizará un insert dentro de la colección Tour dentro de nuestra base de datos learning_mongo, almacenada en nuestra nube Atlas, en la cual en el apartado izquierdo donde se coloca la URL, se tendrá que cambiar la condición de **GET a POST**.
 De igual manera, se tendrá que dirigir a la pestaña “Body”, posteriormente seleccionar la opción “Raw”, en la cual nos desplegará una terminal, donde se tendrá que introducir, toda a información que se requiera registrar en la colección.
+**localhost/3000/api/tours/names/"Insertar informacion"**
+La cual consiste en **localhost** nombre de nuestro servidor, seguido de **3000** el cual es el puerto por el que se transmite información dentro de la aplicación Postman, **api/tours/names** el cual es el nombre con el que se manda a llamar las instrucciones de la consulta y **Insertar inforamción** el cual es la condición con la que se realizara las instrucciones.
+
+Donde para la inserción de información se dirigirá a la pestaña **Body**, junto con la opción **Raw**, se escribirá, la información de los siguientes documentos:
+
+<ul>
+ <li> tourName </li>
+ <li> tourDifficuly </li>
+ <li> tourDescription </li>
+ <li> tourLenght </li>
+ <li> tourPrice </li>
+ <li> tourTags </li>
+ <li> tourPackage </li>
+ <li> tourOrganizer </li>
+ <li> organizarName </li>
+ <li> organizerPhone </li>
+ </ul>
 
 ![URL](https://raw.githubusercontent.com/JorgeBarcenas/Data-Mining-and-Data-Warehousing/master/Git/Insert%20Tour/URL.PNG)
 
-Donde se nos desplegará una confirmación en la terminal, cuando se allá generado la información dentro de la colección.
+Donde una vez escrito y enviado la información, se nos desplegará una confirmación en la terminal, cuando se allá generado la información dentro de la colección.
 
 ![Terminal](https://raw.githubusercontent.com/JorgeBarcenas/Data-Mining-and-Data-Warehousing/master/Git/Insert%20Tour/Terminal.png)
 
@@ -280,6 +301,7 @@ Se realizará la eliminación completa de un objeto, para este servicio, se requ
 Y escribir sobre la parte de URL, la siguiente línea:
 
 **localhost:3000/api/tours/5cc54d84d4755a33b0084179**
+La cual consiste en **localhost** nombre de nuestro servidor, seguido de **3000** el cual es el puerto por el que se transmite información dentro de la aplicación Postman, **api/tours** el cual es el nombre con el que se manda a llamar las instrucciones de la consulta y **5cc54d84d4755a33b0084179** el cual es la condición con la que se realizara las instrucciones.
 
 ![URL](https://raw.githubusercontent.com/JorgeBarcenas/Data-Mining-and-Data-Warehousing/master/Git/Delete%20Tour/URL.png)
 
