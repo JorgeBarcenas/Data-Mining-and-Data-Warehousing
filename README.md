@@ -10,7 +10,7 @@ Para comenzar, se tendrá que acceder a la página oficial de **MongoDB Atlas**,
 
 Donde una vez creada la cuenta, se accederá a ella y se realizaran, los pasos guía, que se nos despliegan, al entrar por primera vez a nuestra cuenta. Donde una vez realizado los primeros pasos, nos ubicará en la página de nuestro primer proyecto.
 
-![Página_Proyecto](https://raw.githubusercontent.com/JorgeBarcenas/Data-Mining-and-Data-Warehousing/master/Git/Ambientacion/Usuario.png)
+![Página_Proyecto](https://raw.githubusercontent.com/JorgeBarcenas/MVC/master/Git/Ambientacion/Usuario.PNG)
 
 Donde nos dirigeremos a la pestaña **Security**, donde en la parte superior derecho, abra un botón verde, qel cual dirá **Add new user**, donde se dará clic en el y se creará un usuario con privilegios de **Administrador**. En este caso se crea usuario administrador “ROOT”, con su respectiva contraseña “TOOR”, donde dicho administrador, cuenta con los permisos de poder editar cualquier colección de cualquier base de datos que almacene Cloud.
 
